@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A805DD58154B42FE892692EA /* libPods-Trade Securely.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4F9AD45997AFCB3F7E0496 /* libPods-Trade Securely.a */; };
+		E20CCCA02359D33E00DD6447 /* CreateJobSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CCC9F2359D33E00DD6447 /* CreateJobSignatureViewController.swift */; };
+		E20CCCA22359F58000DD6447 /* SearchJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CCCA12359F58000DD6447 /* SearchJobsViewController.swift */; };
+		E22DA76C2395095F00A37BE9 /* VariationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22DA76B2395095F00A37BE9 /* VariationListViewController.swift */; };
+		E22DA76E2395098500A37BE9 /* VariationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22DA76D2395098500A37BE9 /* VariationViewController.swift */; };
+		E22DA7702396137B00A37BE9 /* VariationAddSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22DA76F2396137B00A37BE9 /* VariationAddSignatureViewController.swift */; };
+		E22DA7722397A43C00A37BE9 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22DA7712397A43C00A37BE9 /* AccountDetailsViewController.swift */; };
+		E23B0EE0238763DD002432B3 /* RaiseDisputeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B0EDF238763DD002432B3 /* RaiseDisputeViewController.swift */; };
+		E2423668235EBD0E00F2E44D /* TableViewJobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2423666235EBD0E00F2E44D /* TableViewJobsCell.swift */; };
+		E2423669235EBD0E00F2E44D /* TableViewJobsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2423667235EBD0E00F2E44D /* TableViewJobsCell.xib */; };
+		E242366B236007C100F2E44D /* TextFieldWithPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E242366A236007C100F2E44D /* TextFieldWithPickerView.swift */; };
+		E242366E23602A6100F2E44D /* TableViewAddPaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E242366C23602A6100F2E44D /* TableViewAddPaymentCell.swift */; };
+		E242366F23602A6100F2E44D /* TableViewAddPaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E242366D23602A6100F2E44D /* TableViewAddPaymentCell.xib */; };
+		E24B24DF233D83200019BC4C /* TableViewInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B24DD233D83200019BC4C /* TableViewInputCell.swift */; };
+		E24B24E0233D83200019BC4C /* TableViewInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24B24DE233D83200019BC4C /* TableViewInputCell.xib */; };
+		E25EDF4723C4452A00833765 /* JobPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EDF4623C4452A00833765 /* JobPaymentViewController.swift */; };
+		E25EDF4923C6C67800833765 /* DisputePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EDF4823C6C67800833765 /* DisputePaymentViewController.swift */; };
+		E25EDF4B23C8CC8400833765 /* HelpfulHintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EDF4A23C8CC8400833765 /* HelpfulHintsViewController.swift */; };
+		E25EDF4D23CCE6EC00833765 /* MyWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EDF4C23CCE6EC00833765 /* MyWalletViewController.swift */; };
+		E25F23192358C73A00B6DB1D /* CreateJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25F23182358C73A00B6DB1D /* CreateJobViewController.swift */; };
+		E273D6D923E9488C004A824E /* TableViewPostJobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273D6D723E9488C004A824E /* TableViewPostJobsCell.swift */; };
+		E273D6DA23E9488C004A824E /* TableViewPostJobsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E273D6D823E9488C004A824E /* TableViewPostJobsCell.xib */; };
+		E273D6DC23EBDCCB004A824E /* CreateJobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E273D6DB23EBDCCB004A824E /* CreateJobPostViewController.swift */; };
+		E27F18402386422100105D34 /* TableViewDisputeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F183E2386422100105D34 /* TableViewDisputeCell.swift */; };
+		E27F18412386422100105D34 /* TableViewDisputeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F183F2386422100105D34 /* TableViewDisputeCell.xib */; };
+		E27F184323864FEE00105D34 /* DisputeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F184223864FEE00105D34 /* DisputeListViewController.swift */; };
+		E28619C1237949B600319899 /* CompletionReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28619C0237949B600319899 /* CompletionReportViewController.swift */; };
+		E28619C3237E51A700319899 /* DeclineJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28619C2237E51A700319899 /* DeclineJobsViewController.swift */; };
+		E287B49923D0328A00703733 /* VariationDisputeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287B49823D0328A00703733 /* VariationDisputeTableViewController.swift */; };
+		E287B49B23E8E78500703733 /* PostJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287B49A23E8E78500703733 /* PostJobsViewController.swift */; };
+		E291EB6B2339D15900DB4109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291EB6A2339D15900DB4109 /* AppDelegate.swift */; };
+		E291EB6D2339D15900DB4109 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291EB6C2339D15900DB4109 /* CreateAccountViewController.swift */; };
+		E291EB702339D15900DB4109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E291EB6E2339D15900DB4109 /* Main.storyboard */; };
+		E291EB722339D15A00DB4109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E291EB712339D15A00DB4109 /* Assets.xcassets */; };
+		E291EB7D233A1F0B00DB4109 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291EB7C233A1F0B00DB4109 /* StartPageViewController.swift */; };
+		E29FE4262350342900E44B34 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29FE4252350342900E44B34 /* HomePageViewController.swift */; };
+		E2C61542236BB450002BB104 /* TableViewOpenJobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C61540236BB450002BB104 /* TableViewOpenJobsCell.swift */; };
+		E2C61543236BB450002BB104 /* TableViewOpenJobsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C61541236BB450002BB104 /* TableViewOpenJobsCell.xib */; };
+		E2C61545236BC5F3002BB104 /* OpenJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C61544236BC5F3002BB104 /* OpenJobsViewController.swift */; };
+		E2CA720623423E5E007D09A0 /* DBTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA720523423E5E007D09A0 /* DBTables.swift */; };
+		E2CA720823425143007D09A0 /* DBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA720723425143007D09A0 /* DBController.swift */; };
+		E2F9860D233DBE1300C1BCE6 /* AccountSetUpHomeOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9860C233DBE1300C1BCE6 /* AccountSetUpHomeOwnerViewController.swift */; };
+		E2F98611233DC0D000C1BCE6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F98610233DC0D000C1BCE6 /* Utils.swift */; };
+		E2F98615233DCA2800C1BCE6 /* AccountSetUpHomeBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F98614233DCA2800C1BCE6 /* AccountSetUpHomeBuilderViewController.swift */; };
+		E2F98617233DE1D100C1BCE6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F98616233DE1D100C1BCE6 /* LogInViewController.swift */; };
+		E2F9861B233E061A00C1BCE6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F9861A233E061A00C1BCE6 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4F9AD45997AFCB3F7E0496 /* libPods-Trade Securely.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Trade Securely.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C622AB9DD2B87F0940FD84A /* Pods-Trade Securely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trade Securely.release.xcconfig"; path = "Target Support Files/Pods-Trade Securely/Pods-Trade Securely.release.xcconfig"; sourceTree = "<group>"; };
+		C6CDF09A162CAE1116516833 /* Pods-Trade Securely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trade Securely.debug.xcconfig"; path = "Target Support Files/Pods-Trade Securely/Pods-Trade Securely.debug.xcconfig"; sourceTree = "<group>"; };
+		E20CCC9F2359D33E00DD6447 /* CreateJobSignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobSignatureViewController.swift; sourceTree = "<group>"; };
+		E20CCCA12359F58000DD6447 /* SearchJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchJobsViewController.swift; sourceTree = "<group>"; };
+		E22DA76B2395095F00A37BE9 /* VariationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationListViewController.swift; sourceTree = "<group>"; };
+		E22DA76D2395098500A37BE9 /* VariationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationViewController.swift; sourceTree = "<group>"; };
+		E22DA76F2396137B00A37BE9 /* VariationAddSignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationAddSignatureViewController.swift; sourceTree = "<group>"; };
+		E22DA7712397A43C00A37BE9 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
+		E23B0EDF238763DD002432B3 /* RaiseDisputeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseDisputeViewController.swift; sourceTree = "<group>"; };
+		E2423666235EBD0E00F2E44D /* TableViewJobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewJobsCell.swift; sourceTree = "<group>"; };
+		E2423667235EBD0E00F2E44D /* TableViewJobsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewJobsCell.xib; sourceTree = "<group>"; };
+		E242366A236007C100F2E44D /* TextFieldWithPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPickerView.swift; sourceTree = "<group>"; };
+		E242366C23602A6100F2E44D /* TableViewAddPaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAddPaymentCell.swift; sourceTree = "<group>"; };
+		E242366D23602A6100F2E44D /* TableViewAddPaymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewAddPaymentCell.xib; sourceTree = "<group>"; };
+		E24B24DD233D83200019BC4C /* TableViewInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewInputCell.swift; sourceTree = "<group>"; };
+		E24B24DE233D83200019BC4C /* TableViewInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewInputCell.xib; sourceTree = "<group>"; };
+		E25EDF4623C4452A00833765 /* JobPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPaymentViewController.swift; sourceTree = "<group>"; };
+		E25EDF4823C6C67800833765 /* DisputePaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisputePaymentViewController.swift; sourceTree = "<group>"; };
+		E25EDF4A23C8CC8400833765 /* HelpfulHintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulHintsViewController.swift; sourceTree = "<group>"; };
+		E25EDF4C23CCE6EC00833765 /* MyWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletViewController.swift; sourceTree = "<group>"; };
+		E25F23182358C73A00B6DB1D /* CreateJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobViewController.swift; sourceTree = "<group>"; };
+		E273D6D723E9488C004A824E /* TableViewPostJobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPostJobsCell.swift; sourceTree = "<group>"; };
+		E273D6D823E9488C004A824E /* TableViewPostJobsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewPostJobsCell.xib; sourceTree = "<group>"; };
+		E273D6DB23EBDCCB004A824E /* CreateJobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobPostViewController.swift; sourceTree = "<group>"; };
+		E27F183E2386422100105D34 /* TableViewDisputeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDisputeCell.swift; sourceTree = "<group>"; };
+		E27F183F2386422100105D34 /* TableViewDisputeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewDisputeCell.xib; sourceTree = "<group>"; };
+		E27F184223864FEE00105D34 /* DisputeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisputeListViewController.swift; sourceTree = "<group>"; };
+		E28619C0237949B600319899 /* CompletionReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionReportViewController.swift; sourceTree = "<group>"; };
+		E28619C2237E51A700319899 /* DeclineJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclineJobsViewController.swift; sourceTree = "<group>"; };
+		E287B49823D0328A00703733 /* VariationDisputeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationDisputeTableViewController.swift; sourceTree = "<group>"; };
+		E287B49A23E8E78500703733 /* PostJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostJobsViewController.swift; sourceTree = "<group>"; };
+		E291EB672339D15900DB4109 /* Trade Securely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trade Securely.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E291EB6A2339D15900DB4109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E291EB6C2339D15900DB4109 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		E291EB6F2339D15900DB4109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E291EB712339D15A00DB4109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E291EB762339D15A00DB4109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E291EB7C233A1F0B00DB4109 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		E29FE4252350342900E44B34 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		E2C61540236BB450002BB104 /* TableViewOpenJobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewOpenJobsCell.swift; sourceTree = "<group>"; };
+		E2C61541236BB450002BB104 /* TableViewOpenJobsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewOpenJobsCell.xib; sourceTree = "<group>"; };
+		E2C61544236BC5F3002BB104 /* OpenJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenJobsViewController.swift; sourceTree = "<group>"; };
+		E2CA720523423E5E007D09A0 /* DBTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBTables.swift; sourceTree = "<group>"; };
+		E2CA720723425143007D09A0 /* DBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBController.swift; sourceTree = "<group>"; };
+		E2F9860C233DBE1300C1BCE6 /* AccountSetUpHomeOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetUpHomeOwnerViewController.swift; sourceTree = "<group>"; };
+		E2F98610233DC0D000C1BCE6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E2F98614233DCA2800C1BCE6 /* AccountSetUpHomeBuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSetUpHomeBuilderViewController.swift; sourceTree = "<group>"; };
+		E2F98616233DE1D100C1BCE6 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E2F9861A233E061A00C1BCE6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E291EB642339D15900DB4109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A805DD58154B42FE892692EA /* libPods-Trade Securely.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474ADB5349AD4431825D5BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D4F9AD45997AFCB3F7E0496 /* libPods-Trade Securely.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F879292B66B2B2496149B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6CDF09A162CAE1116516833 /* Pods-Trade Securely.debug.xcconfig */,
+				8C622AB9DD2B87F0940FD84A /* Pods-Trade Securely.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E291EB5E2339D15900DB4109 = {
+			isa = PBXGroup;
+			children = (
+				E291EB692339D15900DB4109 /* Trade Securely */,
+				E291EB682339D15900DB4109 /* Products */,
+				474ADB5349AD4431825D5BED /* Frameworks */,
+				6F879292B66B2B2496149B21 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E291EB682339D15900DB4109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E291EB672339D15900DB4109 /* Trade Securely.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E291EB692339D15900DB4109 /* Trade Securely */ = {
+			isa = PBXGroup;
+			children = (
+				E291EB712339D15A00DB4109 /* Assets.xcassets */,
+				E291EB6A2339D15900DB4109 /* AppDelegate.swift */,
+				E291EB762339D15A00DB4109 /* Info.plist */,
+				E2E72CDF234F0AC60080AE99 /* Utils */,
+				E2F98609233DB96300C1BCE6 /* Model */,
+				E2F9860A233DB97000C1BCE6 /* View */,
+				E2F9860B233DB97800C1BCE6 /* Controller */,
+			);
+			path = "Trade Securely";
+			sourceTree = "<group>";
+		};
+		E2E72CDF234F0AC60080AE99 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2F98610233DC0D000C1BCE6 /* Utils.swift */,
+				E242366A236007C100F2E44D /* TextFieldWithPickerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E2F98609233DB96300C1BCE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2CA720523423E5E007D09A0 /* DBTables.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2F9860A233DB97000C1BCE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E291EB6E2339D15900DB4109 /* Main.storyboard */,
+				E2F9861A233E061A00C1BCE6 /* Launch Screen.storyboard */,
+				E24B24DE233D83200019BC4C /* TableViewInputCell.xib */,
+				E2423667235EBD0E00F2E44D /* TableViewJobsCell.xib */,
+				E242366D23602A6100F2E44D /* TableViewAddPaymentCell.xib */,
+				E2C61541236BB450002BB104 /* TableViewOpenJobsCell.xib */,
+				E27F183F2386422100105D34 /* TableViewDisputeCell.xib */,
+				E273D6D823E9488C004A824E /* TableViewPostJobsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2F9860B233DB97800C1BCE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2CA720723425143007D09A0 /* DBController.swift */,
+				E2423666235EBD0E00F2E44D /* TableViewJobsCell.swift */,
+				E24B24DD233D83200019BC4C /* TableViewInputCell.swift */,
+				E242366C23602A6100F2E44D /* TableViewAddPaymentCell.swift */,
+				E2C61540236BB450002BB104 /* TableViewOpenJobsCell.swift */,
+				E27F183E2386422100105D34 /* TableViewDisputeCell.swift */,
+				E273D6D723E9488C004A824E /* TableViewPostJobsCell.swift */,
+				E291EB7C233A1F0B00DB4109 /* StartPageViewController.swift */,
+				E291EB6C2339D15900DB4109 /* CreateAccountViewController.swift */,
+				E2F9860C233DBE1300C1BCE6 /* AccountSetUpHomeOwnerViewController.swift */,
+				E2F98614233DCA2800C1BCE6 /* AccountSetUpHomeBuilderViewController.swift */,
+				E2F98616233DE1D100C1BCE6 /* LogInViewController.swift */,
+				E29FE4252350342900E44B34 /* HomePageViewController.swift */,
+				E25F23182358C73A00B6DB1D /* CreateJobViewController.swift */,
+				E20CCC9F2359D33E00DD6447 /* CreateJobSignatureViewController.swift */,
+				E20CCCA12359F58000DD6447 /* SearchJobsViewController.swift */,
+				E2C61544236BC5F3002BB104 /* OpenJobsViewController.swift */,
+				E28619C0237949B600319899 /* CompletionReportViewController.swift */,
+				E28619C2237E51A700319899 /* DeclineJobsViewController.swift */,
+				E27F184223864FEE00105D34 /* DisputeListViewController.swift */,
+				E23B0EDF238763DD002432B3 /* RaiseDisputeViewController.swift */,
+				E22DA76B2395095F00A37BE9 /* VariationListViewController.swift */,
+				E22DA76D2395098500A37BE9 /* VariationViewController.swift */,
+				E25EDF4A23C8CC8400833765 /* HelpfulHintsViewController.swift */,
+				E22DA76F2396137B00A37BE9 /* VariationAddSignatureViewController.swift */,
+				E22DA7712397A43C00A37BE9 /* AccountDetailsViewController.swift */,
+				E25EDF4623C4452A00833765 /* JobPaymentViewController.swift */,
+				E25EDF4823C6C67800833765 /* DisputePaymentViewController.swift */,
+				E25EDF4C23CCE6EC00833765 /* MyWalletViewController.swift */,
+				E287B49823D0328A00703733 /* VariationDisputeTableViewController.swift */,
+				E287B49A23E8E78500703733 /* PostJobsViewController.swift */,
+				E273D6DB23EBDCCB004A824E /* CreateJobPostViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E291EB662339D15900DB4109 /* Trade Securely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E291EB792339D15A00DB4109 /* Build configuration list for PBXNativeTarget "Trade Securely" */;
+			buildPhases = (
+				4BC9E970A7E1D2E8E6C40CAF /* [CP] Check Pods Manifest.lock */,
+				E291EB632339D15900DB4109 /* Sources */,
+				E291EB642339D15900DB4109 /* Frameworks */,
+				E291EB652339D15900DB4109 /* Resources */,
+				B59183131B5762159C91A535 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trade Securely";
+			productName = "Trade Securely";
+			productReference = E291EB672339D15900DB4109 /* Trade Securely.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E291EB5F2339D15900DB4109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Travezl;
+				TargetAttributes = {
+					E291EB662339D15900DB4109 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E291EB622339D15900DB4109 /* Build configuration list for PBXProject "Trade Securely" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E291EB5E2339D15900DB4109;
+			productRefGroup = E291EB682339D15900DB4109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E291EB662339D15900DB4109 /* Trade Securely */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E291EB652339D15900DB4109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C61543236BB450002BB104 /* TableViewOpenJobsCell.xib in Resources */,
+				E2423669235EBD0E00F2E44D /* TableViewJobsCell.xib in Resources */,
+				E27F18412386422100105D34 /* TableViewDisputeCell.xib in Resources */,
+				E291EB722339D15A00DB4109 /* Assets.xcassets in Resources */,
+				E24B24E0233D83200019BC4C /* TableViewInputCell.xib in Resources */,
+				E2F9861B233E061A00C1BCE6 /* Launch Screen.storyboard in Resources */,
+				E242366F23602A6100F2E44D /* TableViewAddPaymentCell.xib in Resources */,
+				E291EB702339D15900DB4109 /* Main.storyboard in Resources */,
+				E273D6DA23E9488C004A824E /* TableViewPostJobsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC9E970A7E1D2E8E6C40CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trade Securely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59183131B5762159C91A535 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trade Securely/Pods-Trade Securely-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trade Securely/Pods-Trade Securely-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trade Securely/Pods-Trade Securely-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E291EB632339D15900DB4109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22DA76C2395095F00A37BE9 /* VariationListViewController.swift in Sources */,
+				E23B0EE0238763DD002432B3 /* RaiseDisputeViewController.swift in Sources */,
+				E27F18402386422100105D34 /* TableViewDisputeCell.swift in Sources */,
+				E25EDF4723C4452A00833765 /* JobPaymentViewController.swift in Sources */,
+				E2CA720623423E5E007D09A0 /* DBTables.swift in Sources */,
+				E25EDF4D23CCE6EC00833765 /* MyWalletViewController.swift in Sources */,
+				E273D6D923E9488C004A824E /* TableViewPostJobsCell.swift in Sources */,
+				E291EB6D2339D15900DB4109 /* CreateAccountViewController.swift in Sources */,
+				E273D6DC23EBDCCB004A824E /* CreateJobPostViewController.swift in Sources */,
+				E242366E23602A6100F2E44D /* TableViewAddPaymentCell.swift in Sources */,
+				E291EB6B2339D15900DB4109 /* AppDelegate.swift in Sources */,
+				E20CCCA02359D33E00DD6447 /* CreateJobSignatureViewController.swift in Sources */,
+				E24B24DF233D83200019BC4C /* TableViewInputCell.swift in Sources */,
+				E27F184323864FEE00105D34 /* DisputeListViewController.swift in Sources */,
+				E2C61545236BC5F3002BB104 /* OpenJobsViewController.swift in Sources */,
+				E291EB7D233A1F0B00DB4109 /* StartPageViewController.swift in Sources */,
+				E22DA7702396137B00A37BE9 /* VariationAddSignatureViewController.swift in Sources */,
+				E242366B236007C100F2E44D /* TextFieldWithPickerView.swift in Sources */,
+				E287B49B23E8E78500703733 /* PostJobsViewController.swift in Sources */,
+				E2423668235EBD0E00F2E44D /* TableViewJobsCell.swift in Sources */,
+				E22DA7722397A43C00A37BE9 /* AccountDetailsViewController.swift in Sources */,
+				E2C61542236BB450002BB104 /* TableViewOpenJobsCell.swift in Sources */,
+				E2F98617233DE1D100C1BCE6 /* LogInViewController.swift in Sources */,
+				E28619C1237949B600319899 /* CompletionReportViewController.swift in Sources */,
+				E25F23192358C73A00B6DB1D /* CreateJobViewController.swift in Sources */,
+				E2F9860D233DBE1300C1BCE6 /* AccountSetUpHomeOwnerViewController.swift in Sources */,
+				E29FE4262350342900E44B34 /* HomePageViewController.swift in Sources */,
+				E28619C3237E51A700319899 /* DeclineJobsViewController.swift in Sources */,
+				E25EDF4923C6C67800833765 /* DisputePaymentViewController.swift in Sources */,
+				E25EDF4B23C8CC8400833765 /* HelpfulHintsViewController.swift in Sources */,
+				E20CCCA22359F58000DD6447 /* SearchJobsViewController.swift in Sources */,
+				E2F98611233DC0D000C1BCE6 /* Utils.swift in Sources */,
+				E287B49923D0328A00703733 /* VariationDisputeTableViewController.swift in Sources */,
+				E2F98615233DCA2800C1BCE6 /* AccountSetUpHomeBuilderViewController.swift in Sources */,
+				E22DA76E2395098500A37BE9 /* VariationViewController.swift in Sources */,
+				E2CA720823425143007D09A0 /* DBController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E291EB6E2339D15900DB4109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E291EB6F2339D15900DB4109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E291EB772339D15A00DB4109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E291EB782339D15A00DB4109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E291EB7A2339D15A00DB4109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CDF09A162CAE1116516833 /* Pods-Trade Securely.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQ52LS3DAD;
+				INFOPLIST_FILE = "Trade Securely/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travezlpartner.tradesecurely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E291EB7B2339D15A00DB4109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C622AB9DD2B87F0940FD84A /* Pods-Trade Securely.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQ52LS3DAD;
+				INFOPLIST_FILE = "Trade Securely/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travezlpartner.tradesecurely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E291EB622339D15900DB4109 /* Build configuration list for PBXProject "Trade Securely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E291EB772339D15A00DB4109 /* Debug */,
+				E291EB782339D15A00DB4109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E291EB792339D15A00DB4109 /* Build configuration list for PBXNativeTarget "Trade Securely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E291EB7A2339D15A00DB4109 /* Debug */,
+				E291EB7B2339D15A00DB4109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E291EB5F2339D15900DB4109 /* Project object */;
+}
