@@ -1,0 +1,6 @@
+module Pods_Trade_Securely {
+  umbrella header "Pods-Trade Securely-umbrella.h"
+
+  export *
+  module * { export * }
+}
