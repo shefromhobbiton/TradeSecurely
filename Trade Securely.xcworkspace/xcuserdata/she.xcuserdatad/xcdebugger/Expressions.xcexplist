@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CreateJobViewController.setDataOnTextFields():CreateJobViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_tblPaymentList.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PostJobsViewController.tableView(_:cellForRowAt:):PostJobsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tempList.startDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VariationDisputeTableViewController.tableView(_:titleForHeaderInSection:):VariationDisputeTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dataArray[section].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VariationDisputeTableViewController.fetchData():VariationDisputeTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CreateJobViewController.getDataFromTable(sender:):CreateJobViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VariationDisputeTableViewController.setUpArrayForDisplay():VariationDisputeTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_tblVariationList[ctr2].natureOfVariation">
+            </PersistentString>
+            <PersistentString
+               value = "_tblJobList[ctr].jobName">
+            </PersistentString>
+            <PersistentString
+               value = "_tblJobList[ctr].id">
+            </PersistentString>
+            <PersistentString
+               value = "_tblVariationList[ctr2].id">
+            </PersistentString>
+            <PersistentString
+               value = "dataArray[ctr]">
+            </PersistentString>
+            <PersistentString
+               value = "_tblVariationList[0].natureOfVariation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
