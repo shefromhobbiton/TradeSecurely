@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="TableViewInputCell" customModule="Trade_Securely" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="lblDetails" text="lblDetails" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOx-6N-Afr" userLabel="lblDetails">
+                        <rect key="frame" x="5" y="7" width="350" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="txtFieldDetails" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OYL-qH-rHe">
+                        <rect key="frame" x="5" y="30" width="350" height="41.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v4q-Oq-oiq" userLabel="Line">
+                        <rect key="frame" x="5" y="65.5" width="350" height="2"/>
+                        <color key="backgroundColor" red="0.2156862745" green="0.21176470589999999" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="Pe5-EZ-B3d"/>
+                            <constraint firstAttribute="width" constant="350" id="yrr-nc-qQp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v4q-Oq-oiq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="5:3" id="0hY-4E-4lI"/>
+                    <constraint firstItem="iOx-6N-Afr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="20m-nW-mnQ"/>
+                    <constraint firstItem="OYL-qH-rHe" firstAttribute="top" secondItem="iOx-6N-Afr" secondAttribute="bottom" constant="4" id="3z0-JX-vjL"/>
+                    <constraint firstAttribute="trailing" secondItem="iOx-6N-Afr" secondAttribute="trailing" constant="5" id="5b1-PU-3cF"/>
+                    <constraint firstItem="OYL-qH-rHe" firstAttribute="top" secondItem="iOx-6N-Afr" secondAttribute="bottom" constant="4" id="BF6-aF-JLW"/>
+                    <constraint firstAttribute="bottom" secondItem="OYL-qH-rHe" secondAttribute="bottom" constant="8" id="Bjq-dy-2hi"/>
+                    <constraint firstItem="iOx-6N-Afr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="Dxo-EA-Wl3"/>
+                    <constraint firstAttribute="trailing" secondItem="OYL-qH-rHe" secondAttribute="trailing" constant="5" id="aaE-hP-cHc"/>
+                    <constraint firstItem="v4q-Oq-oiq" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="voC-Qo-go8"/>
+                    <constraint firstItem="OYL-qH-rHe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="xhd-qv-FW2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDetails" destination="iOx-6N-Afr" id="RLM-Yg-gZC"/>
+                <outlet property="txtFieldDetails" destination="OYL-qH-rHe" id="jGA-kV-h1l"/>
+            </connections>
+            <point key="canvasLocation" x="273.60000000000002" y="112.44377811094454"/>
+        </tableViewCell>
+    </objects>
+</document>
